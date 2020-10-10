@@ -1,0 +1,15 @@
+form {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 1em;
+  margin-bottom: 1em;
+}
+
+.field {
+  display: grid;
+  grid-column: span 2;
+  grid: inherit;
+  grid-gap: inherit;
+  grid-template-columns: 5em 1fr;
+  grid-template-columns: subgrid;
+}
